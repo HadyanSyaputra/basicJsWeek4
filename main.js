@@ -65,6 +65,20 @@ const algoritma = () => {
     console.log("Total:", cariTotal(indexGanjil));
     console.log("Mean:", cariRataRata(indexGanjil));
 
+    // Comparison between minimum, maximum, total and average values
+    console.log("Perbandingan antara index genap dan index ganjil:");
+    console.log("Minimum Index Genap vs Index Ganjil:");
+    console.log("   Index Genap:", cariMinimal(indexGenap));
+    console.log("   Index Ganjil:", cariMinimal(indexGanjil));
+    console.log("Maximum Index Genap vs Index Ganjil:");
+    console.log("   Index Genap:", cariMaksimal(indexGenap));
+    console.log("   Index Ganjil:", cariMaksimal(indexGanjil));
+    console.log("Total Index Genap vs Index Ganjil:");
+    console.log("   Index Genap:", cariTotal(indexGenap));
+    console.log("   Index Ganjil:", cariTotal(indexGanjil));
+    console.log("Rata-rata Index Genap vs Index Ganjil:");
+    console.log("   Index Genap:", cariRataRata(indexGenap));
+    console.log("   Index Ganjil:", cariRataRata(indexGanjil));
 
 };
 
